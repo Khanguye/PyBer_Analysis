@@ -26,8 +26,8 @@ Total number of rides in rural cities is 5 to 13 times less than suburban and ur
 The Sum of the Fares for Each City Type
 
 - Create a data frame plot the total fare of each city type between January to Arpil 2019
-- Each data point in the chart is ***the total fare per week*** of each city type
 - Pivot the dataframe with city type (column) and sum fares (value) and date (index) 
+- Each data point in the chart is ***the total fare per week*** of each city type
 
 ![data frame](analysis/challenge5.png)
 
