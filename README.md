@@ -4,11 +4,11 @@
 
 Create a summary DataFrame that showcases the correlation between average fare and total rides and drivers in each city type
 
-1- Total Rides : calculate the total rides in each city type (count of ride_id)
-2- Total Drivers: calcualte the total drivers in each city type (sum of driver_count from city data collection)
-3- Total Fares: calculate the total fare amount in each city type (sum of fare)
-4- Average Fare per Ride: total fare / total rides
-5- Average Fare per Driver: total fare / total drivers
+- Total Rides : calculate the total rides in each city type (count of ride_id)
+- Total Drivers: calcualte the total drivers in each city type (sum of driver_count from city data collection)
+- Total Fares: calculate the total fare amount in each city type (sum of fare)
+- Average Fare per Ride: total fare / total rides
+- Average Fare per Driver: total fare / total drivers
 
 ![data table](analysis/challenge5_dataframe.png)
 
