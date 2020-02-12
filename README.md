@@ -1,6 +1,6 @@
-#PyBer Analysis
+# PyBer Analysis
 
-###PyBer Summary DataFrame
+### PyBer Summary DataFrame
 
 Create a summary DataFrame that showcases the correlation between average fare and total rides and drivers in each city type
 
@@ -17,10 +17,14 @@ Limitation: The dataset did not mention how fare of each ride-sharing is calcula
 Total number of rides in rural cities is 5 to 13 times less than suburban and urban cities respectively so the total fare amount of rural and total drivers are also less than suburban and urban cities. Because of not many drivers in rural cities, its average fare per ride  and the average fare per driver are higher than suburban and urban cities. By looking at the average fare per driver, drivers in rural cities makes more 3 times than driver urban cities. However, urban rides are more frequencely booked than rural rides. The average fare per ride in suburban and urban cities are cheaper than rural cities because suburban and urban total drivers are more 6 to 30 times than rural total drivers.
 
 
-Create a Multiple-Line Plot for the Sum of the Fares for Each City Type
+### PyBer Multiple-Line Plot 
 
-- Total fare per week by city type: add total fare in a week for each city type and create the chart to compare the revenue during the time line.
+The Sum of the Fares for Each City Type
+
+- Create a data frame plot the total fare of each city type between January to Arpil 2019
+- Each data point in the chart is ***the total fare per week*** of each city type
+- Pivot the dataframe with city type (column) and sum fares (value) and date (index) 
 
 ![data frame](analysis/challenge5.png)
 
-Total fare of rural cities is less 3 to 6 times than suburban and urban citites during periods. The total fare of rural cities did not over $500 at any period. On other hand, the total fare of urban citites is consistence about $2000, and the total of suburban cities is relative around $1200. Between Feburary and March, the total fare of three city types are peeked. This is very interesting situtation because the demand of rides is higher than normal. Overall, poeple in urban and suburban cities are using ride-sharing more than poeple in rural cities. 
+Total fare of rural cities is less 3 to 6 times than suburban and urban citites during periods. The total fare of rural cities did not over $500 per week at any period. On other hand, the total fare of urban citites is consistence about $2000 per week, and the total fare of suburban cities is relative around $1200 per week. Between Feburary and March, the total fare of three city types are peeked. This is very interesting situtation because the demand of rides is higher than normal. Overall, poeple in urban and suburban cities are using ride-sharing more than poeple in rural cities. 
